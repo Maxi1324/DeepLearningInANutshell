@@ -1,0 +1,152 @@
+Metadata-Version: 2.1
+Name: tensorflow-datasets
+Version: 4.5.2
+Summary: tensorflow/datasets is a library of datasets ready to use with TensorFlow.
+Home-page: https://github.com/tensorflow/datasets
+Author: Google Inc.
+Author-email: packages@tensorflow.org
+License: Apache 2.0
+Download-URL: https://github.com/tensorflow/datasets/tags
+Keywords: tensorflow machine learning datasets
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.6
+License-File: LICENSE
+License-File: AUTHORS
+Requires-Dist: absl-py
+Requires-Dist: dill
+Requires-Dist: numpy
+Requires-Dist: promise
+Requires-Dist: protobuf (>=3.12.2)
+Requires-Dist: requests (>=2.19.0)
+Requires-Dist: six
+Requires-Dist: tensorflow-metadata
+Requires-Dist: termcolor
+Requires-Dist: tqdm
+Requires-Dist: dataclasses ; python_version < "3.7"
+Requires-Dist: typing-extensions ; python_version < "3.8"
+Requires-Dist: importlib-resources ; python_version < "3.9"
+Provides-Extra: aflw2k3d
+Requires-Dist: scipy ; extra == 'aflw2k3d'
+Provides-Extra: c4
+Requires-Dist: apache-beam ; extra == 'c4'
+Requires-Dist: gcld3 ; extra == 'c4'
+Requires-Dist: langdetect ; extra == 'c4'
+Requires-Dist: nltk ; extra == 'c4'
+Requires-Dist: tldextract ; extra == 'c4'
+Provides-Extra: cats_vs_dogs
+Requires-Dist: matplotlib ; extra == 'cats_vs_dogs'
+Provides-Extra: colorectal_histology
+Requires-Dist: Pillow ; extra == 'colorectal_histology'
+Provides-Extra: common_voice
+Requires-Dist: pydub ; extra == 'common_voice'
+Provides-Extra: dev
+Requires-Dist: jax[cpu] ; extra == 'dev'
+Requires-Dist: jupyter ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-xdist ; extra == 'dev'
+Requires-Dist: pandas ; extra == 'dev'
+Requires-Dist: pydub ; extra == 'dev'
+Requires-Dist: apache-beam ; extra == 'dev'
+Requires-Dist: pyyaml ; extra == 'dev'
+Requires-Dist: pylint (>=2.6.0) ; extra == 'dev'
+Requires-Dist: yapf ; extra == 'dev'
+Provides-Extra: duke_ultrasound
+Requires-Dist: scipy ; extra == 'duke_ultrasound'
+Provides-Extra: eurosat
+Requires-Dist: scikit-image ; extra == 'eurosat'
+Requires-Dist: tifffile ; extra == 'eurosat'
+Requires-Dist: imagecodecs ; extra == 'eurosat'
+Provides-Extra: groove
+Requires-Dist: pretty-midi ; extra == 'groove'
+Requires-Dist: pydub ; extra == 'groove'
+Provides-Extra: gtzan
+Requires-Dist: pydub ; extra == 'gtzan'
+Provides-Extra: imagenet2012_corrupted
+Requires-Dist: opencv-python ; extra == 'imagenet2012_corrupted'
+Requires-Dist: scikit-image ; extra == 'imagenet2012_corrupted'
+Requires-Dist: scipy ; extra == 'imagenet2012_corrupted'
+Provides-Extra: librispeech
+Requires-Dist: pydub ; extra == 'librispeech'
+Provides-Extra: lsun
+Requires-Dist: tensorflow-io ; extra == 'lsun'
+Provides-Extra: matplotlib
+Requires-Dist: matplotlib ; extra == 'matplotlib'
+Provides-Extra: nsynth
+Requires-Dist: crepe (>=0.0.11) ; extra == 'nsynth'
+Requires-Dist: librosa ; extra == 'nsynth'
+Requires-Dist: scikit-learn (==0.20.3) ; extra == 'nsynth'
+Provides-Extra: ogbg_molpcba
+Requires-Dist: pandas ; extra == 'ogbg_molpcba'
+Requires-Dist: networkx ; extra == 'ogbg_molpcba'
+Provides-Extra: pet_finder
+Requires-Dist: pandas ; extra == 'pet_finder'
+Provides-Extra: robonet
+Requires-Dist: h5py ; extra == 'robonet'
+Provides-Extra: robosuite_panda_pick_place_can
+Requires-Dist: envlogger ; extra == 'robosuite_panda_pick_place_can'
+Provides-Extra: smartwatch_gestures
+Requires-Dist: pandas ; extra == 'smartwatch_gestures'
+Provides-Extra: svhn
+Requires-Dist: scipy ; extra == 'svhn'
+Provides-Extra: tensorflow
+Requires-Dist: tensorflow (>=2.1) ; extra == 'tensorflow'
+Provides-Extra: tensorflow-data-validation
+Requires-Dist: tensorflow-data-validation ; extra == 'tensorflow-data-validation'
+Provides-Extra: tests-all
+Requires-Dist: jax[cpu] ; extra == 'tests-all'
+Requires-Dist: jupyter ; extra == 'tests-all'
+Requires-Dist: pytest ; extra == 'tests-all'
+Requires-Dist: pytest-xdist ; extra == 'tests-all'
+Requires-Dist: pandas ; extra == 'tests-all'
+Requires-Dist: pydub ; extra == 'tests-all'
+Requires-Dist: apache-beam ; extra == 'tests-all'
+Requires-Dist: pyyaml ; extra == 'tests-all'
+Requires-Dist: scipy ; extra == 'tests-all'
+Requires-Dist: gcld3 ; extra == 'tests-all'
+Requires-Dist: langdetect ; extra == 'tests-all'
+Requires-Dist: nltk ; extra == 'tests-all'
+Requires-Dist: tldextract ; extra == 'tests-all'
+Requires-Dist: matplotlib ; extra == 'tests-all'
+Requires-Dist: Pillow ; extra == 'tests-all'
+Requires-Dist: scikit-image ; extra == 'tests-all'
+Requires-Dist: tifffile ; extra == 'tests-all'
+Requires-Dist: imagecodecs ; extra == 'tests-all'
+Requires-Dist: pretty-midi ; extra == 'tests-all'
+Requires-Dist: opencv-python ; extra == 'tests-all'
+Requires-Dist: networkx ; extra == 'tests-all'
+Requires-Dist: h5py ; extra == 'tests-all'
+Requires-Dist: envlogger ; extra == 'tests-all'
+Requires-Dist: mwparserfromhell ; extra == 'tests-all'
+Requires-Dist: bs4 ; extra == 'tests-all'
+Requires-Dist: lxml ; extra == 'tests-all'
+Requires-Dist: pycocotools ; extra == 'tests-all'
+Provides-Extra: the300w_lp
+Requires-Dist: scipy ; extra == 'the300w_lp'
+Provides-Extra: wider_face
+Requires-Dist: Pillow ; extra == 'wider_face'
+Provides-Extra: wikipedia
+Requires-Dist: mwparserfromhell ; extra == 'wikipedia'
+Requires-Dist: apache-beam ; extra == 'wikipedia'
+Provides-Extra: wsc273
+Requires-Dist: bs4 ; extra == 'wsc273'
+Requires-Dist: lxml ; extra == 'wsc273'
+Provides-Extra: youtube_vis
+Requires-Dist: pycocotools ; extra == 'youtube_vis'
+
+tensorflow/datasets is a library of public datasets ready to use with
+TensorFlow. Each dataset definition contains the logic necessary to download and
+prepare the dataset, as well as to read it into a model using the
+`tf.data.Dataset` API.
+
+Usage outside of TensorFlow is also supported.
+
+See the README on GitHub for further documentation.
+
+

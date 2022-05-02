@@ -1,0 +1,3 @@
+[console_scripts]
+tfds = tensorflow_datasets.scripts.cli.main:launch_cli
+

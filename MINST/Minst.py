@@ -31,7 +31,7 @@ def labelToResult(y:list)->list:
         r = np.append(r,[r1])
     return r.reshape(len(y),10)
 
-def SetupModel(LR = 0.1)->Sequential:
+def SetupModel(LR = .008)->Sequential:
     model = model = Sequential([
     Convolution2D(12,(4,4),strides=(1,1), activation='relu',input_shape=(28,28,1)),
     MaxPooling2D(),

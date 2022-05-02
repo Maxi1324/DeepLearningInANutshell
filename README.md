@@ -41,6 +41,9 @@ How you can guess, the we used supervised learning and a CNN. You can see the st
 
 We know, that a smaller network would work to, but for educational resosons, we used a bigger network.
 
+## Installation
+There is a release with a zip file. In the Zip file is the source code and the Python virtual envioment.<br> If you are on windows, you can simply run the 00Start.ps1 powershell script.
+
 
 ## What did we learn?
 

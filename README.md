@@ -66,9 +66,7 @@ For me most things weren't new. But i still deepend my understanding of the grad
 ## Who did the what?
 
 - Maximilian Fischer(me): The example project and most of the document.
-<br>
 - Adrian Schauer: In the document, the paragraph about backpropagation.
-<br>
 - Marko: In the document, the paragraph about AI in our Society.
 
 ## Tools used in the Project?

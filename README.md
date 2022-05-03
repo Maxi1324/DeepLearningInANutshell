@@ -7,7 +7,7 @@ The main focus is not on the programming related stuff, but on the deep learning
 
 This project was, like many of my projects, made for school. To be spesific for POS logik. It's not a important fact, but i feel like i need to tell it. 
 <br>
-I didn't do all of the work myself. This Project was made in cooperation with two friends @LuckyForce (Adrian Schauer) @Marko (Marko Gavranic).
+I didn't do all of the work myself. This Project was made in cooperation with two friends @<a href="https://github.com/LuckyForce">LuckyForce</a> (Adrian Schauer) @Marko (Marko Gavranic).
 
 ## What is this Project really about.
 

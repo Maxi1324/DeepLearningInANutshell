@@ -16,7 +16,6 @@ google docs, not here.<br><br>
 The reason for that is, if someting is changed, everyone with the link has the update right away. It make things a lot easier, in the aspect of the cooperation with my teammembers. If you don't want to rely on the link, you can also simply download it as any file format you like! :) 
 
 You can view the document here:
-The document is still work in progress, so the infos may be not that polished. There also still some chapers missing.
 https://docs.google.com/document/d/1VaagX4wZUiy-Vo_qol5mipthvHf0_rwtcMO2qcA_nUs/edit?usp=sharing
 
 The whole document is unfortunately written in german:(

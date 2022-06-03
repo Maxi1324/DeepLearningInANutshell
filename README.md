@@ -42,19 +42,27 @@ How you can guess, the we used supervised learning and a CNN. You can see the st
 We know, that a smaller network would work to, but for educational resosons, we used a bigger network.
 
 ## Installation
-There is a release with a zip file. In the Zip file is the source code and the Python virtual envioment.
+1. Install Python 3.9: https://www.python.org/downloads/release/python-3913/
+2. Cone the Github repository
 
-Python 1.9 has to be installed
+```console  
+    git clone https://github.com/Maxi1324/DeepLearningInANutshell
+    cd DeepLearningInANutshell
+```
 
-### Windows
-Run the 00Start.ps1 powershell script.
+3. create a new Virtual Enviornment
+```console  
+    py -m venv DigitRecognition
+    .\DigitRecognition\Scripts\activate
+    pip -r .\requirements.txt
+```
 
-### Any other platform
-Start the python virtual environment.
-And run the GUI.py File from the MINST directory.
-
-You can't simply clone the repo, because the env is not uploaded there completely.
-
+4. Run the Application
+```console  
+    .\DigitRecognition\Scripts\activate
+    py .\MINST\GUI.py
+```
+5. Enjoy!
 
 ## What did we learn?
 
